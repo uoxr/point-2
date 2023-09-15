@@ -268,7 +268,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_username)
         await sython1.send_message(bot_username, '/start')
@@ -314,7 +314,6 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernamee)
         await sython1.send_message(bot_usernamee, '/start')
@@ -360,7 +359,6 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernameee)
         await sython1.send_message(bot_usernameee, '/start')
@@ -406,7 +404,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernameeee)
         await sython1.send_message(bot_usernameeee, '/start')
@@ -453,7 +451,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(bot_usernameeeee)
         await sython1.send_message(bot_usernameeeee, '/start')
@@ -680,7 +678,7 @@ async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id:
         await event.reply("جاري تجميع النقاط")
-        await event.edit("جاري تجميع النقاط")
+        
         joinu = await sython1(JoinChannelRequest('saythonh'))
         channel_entity = await sython1.get_entity(pot)
         await sython1.send_message(pot, '/start')
